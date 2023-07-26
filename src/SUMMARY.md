@@ -18,6 +18,7 @@
   - [player](./global_variables/player.md)
     - [network](./global_variables/player_network.md)
   - [logger](./global_variables/logger.md)
+  - [classAccess](./global_variables/class_access.md)
 
 - [Types](./types/types.md)
   - [Vector2d](./types/vector2d.md)

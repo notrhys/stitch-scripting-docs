@@ -16,3 +16,5 @@ The client global variable gives access to important client-side functions.
 | `client.getUserID()`                                                         | `string`                        | Gets the client user userID                                   |
 | `client.isClientUser(minecraftName: string)`                                 | `boolean`                       | Whether or not the minecraft username is a client user        |
 | `client.getFPS()`                                                            | `int`                           | Gets the client FPS                                           |
+| `client.currentTimeMillis()`                                                 | `int`                           | Gets the current time in milliseconds                         |
+| `client.nanoTime()`                                                          | `int`                           | Gets the current time in nanoseconds                          |
