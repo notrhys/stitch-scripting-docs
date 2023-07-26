@@ -9,7 +9,7 @@ let keepSprint = module.settings.registerBoolean("Keep Sprint", true)
 let cps = module.settings.registerNumber("CPS", 1, 20, 14, 1)
 let distance = module.settings.registerNumber("Distance", 3, 6, 4.2, 0.1)
 
-let timer = new Timer()
+let timer = classAccess.newTimer()
 
 module.events.onPlayerMotion((event) => {
     if (event.state != "pre")
