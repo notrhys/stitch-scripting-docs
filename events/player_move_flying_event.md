@@ -4,12 +4,12 @@ The `PlayerMoveFlyingEvent` is fired when the client calls the moveFlying method
 
 ## Event Class
 
-You can listen for this event using the `onPlayerMoveFlying` method from a module.
+You can listen for this event using the `on_player_move_flying` method from a module.
 
-```js
-module.events.onPlayerMoveFlying((event) => {
+```lua
+module.events.on_player_move_flying(function(event)
 
-})
+end)
 ```
 
 ## Event Fields
@@ -26,4 +26,3 @@ module.events.onPlayerMoveFlying((event) => {
 | Method                           | Return Type | Description                       |
 |----------------------------------|-------------|-----------------------------------|
 | `event.cancel()`                 | `void`      | Cancels the event                 |
-| `event.silentStrafe(yaw: float)` | `void`      | Strafes towards the specified yaw |
