@@ -3,4 +3,4 @@ authors = ["yes"]
 language = "en"
 multilingual = false
 src = "src"
-title = "neon-scripting-docs"
+title = "Stitch scripting documentation"
