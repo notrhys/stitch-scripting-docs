@@ -1,6 +1,6 @@
 # Introduction
 
-This is the Neon scripting documentation, which is a work in progress.
+This is the Stitch scripting documentation, which is a work in progress.
 
 * Compatible with Lua 5.2.x
 
